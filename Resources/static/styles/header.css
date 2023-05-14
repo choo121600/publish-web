@@ -1,0 +1,22 @@
+
+#header {
+    width: 100%;
+    background:linear-gradient(90deg,#4aa69d,#3a8dab);
+    background-attachment: fixed;
+}
+
+#header { position: fixed; top: 0; left: 0; z-index: 999999; }
+#header > .header-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.250em 1.40em;
+}
+
+.header-container > h1 {
+    color: white;
+    font-family: Arial;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.logo { display: inline-block; }

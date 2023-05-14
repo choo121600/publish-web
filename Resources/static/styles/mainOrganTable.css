@@ -1,0 +1,9 @@
+#main-organ-table {
+    padding-top: 120px;
+    display: flex;
+    z-index: 1;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
