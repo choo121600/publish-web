@@ -15,6 +15,7 @@ struct MainContainer: Component {
     var body: Component {
         Div {
             MainBanner(context: context)
+            MainIntro(context: context)
             TimeTable(context: context)
             SpeakerTable(context: context)
             OrganizationTable(context: context)

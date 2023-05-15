@@ -14,6 +14,7 @@ struct ThemeHtmlFactory: HTMLFactory {
         "/static/styles/default.css",
         "/static/styles/header.css",
         "/static/styles/mainContainer.css",
+        "/static/styles/mainIntro.css",
         "/static/styles/mainTimeTable.css",
         "/static/styles/mainSpkTable.css",
         "/static/styles/mainOrganTable.css",

@@ -9,5 +9,6 @@ try WebPage().publish(using: [
     .generateHTML(withTheme: .webPage),
     .generateRSSFeed(including: [.webPage]),
     .copyResources(),
-    .generateSiteMap()
+    .generateSiteMap(),
+    .deploy(using: .gitHub("choo121600/publish-web"))
 ])

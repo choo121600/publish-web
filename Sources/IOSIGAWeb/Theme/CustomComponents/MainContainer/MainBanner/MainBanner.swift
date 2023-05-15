@@ -15,13 +15,13 @@ struct MainBanner: Component {
     var body: Component {
         Div {
             Div {
-                H2 {
-                    Text("Swift와 MachineLearning의 융합의 장 부산에 오신 것을 환영합니다.")
-                }.class("ev-slogan")
-                Paragraph {
-                    Text("07.08(토) 카페위드 경성대부경대점")
-                }.class("ev_state")
+                Image("/static/images/main/mainBanner.png")
             }.class("sec-banner")
+            Div {
+                Link(url: "https://festa.io/events/3506"){
+                    Image("/static/images/main/ticketBtn.png")
+                }
+            }.class("ticketBtn")
             Div {
                 Paragraph {
                     Text("Scoll to Read")

@@ -1,7 +1,7 @@
 
 #header {
     width: 100%;
-    background:linear-gradient(90deg,#4aa69d,#3a8dab);
+    background:white;
     background-attachment: fixed;
 }
 
@@ -20,3 +20,7 @@
 }
 
 .logo { display: inline-block; }
+
+.logo > img {
+    width: 109px;
+}

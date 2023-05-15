@@ -45,7 +45,7 @@ struct TimeTable: Component {
                         }
                         TableRow {
                             TableCell("15:40 ~ 16:10").class("session-time")
-                            TableCell("Swift로 어디까지 할 수 있을까? / Jihoon Ahn").class("session-title")
+                            TableCell("미친 생산성을 위한 CLI 구축 / Jihoon Ahn").class("session-title")
                         }
                         TableRow {
                             TableCell("16:10 ~ 16:40").class("session-time")
@@ -53,14 +53,18 @@ struct TimeTable: Component {
                         }
                         TableRow {
                             TableCell("16:40 ~ 17:10").class("session-time")
-                            TableCell("미정 / 미정").class("session-title")
+                            TableCell("ML on iOS(가칭) / 김현길 or 이준원(미정)").class("session-title")
                         }
                         TableRow {
-                            TableCell("17:10 ~ 17:40").class("session-time")
+                            TableCell("17:10 ~ 17:20").class("session-time")
+                            TableCell("Break time").class("session-title")
+                        }
+                        TableRow {
+                            TableCell("17:20 ~ 17:50").class("session-time")
                             TableCell("세션 발표자와 토킹 세션 / 발표자 일동").class("session-title")
                         }
                         TableRow {
-                            TableCell("17:40 ~ 17:50").class("session-time")
+                            TableCell("17:50 ~ 18:00").class("session-time")
                             TableCell("Closing / Rosa").class("session-title")
                         }
                         TableRow {

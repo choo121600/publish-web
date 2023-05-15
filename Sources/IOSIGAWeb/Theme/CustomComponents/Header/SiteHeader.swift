@@ -17,7 +17,7 @@ struct SiteHeader<Site: Website>: Component {
         Header {
             Div {
                 H1 {
-                    Text("iOS iGA")
+                    Image("/static/images/main/logo.png")
                 }.class("logo")
             }.class("header-container")
         }.id("header")

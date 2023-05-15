@@ -4,15 +4,28 @@
     display: flex;
     z-index: 1;
     position: relative;
-    background-color: #03a9f4;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
+.sec-banner > img {
+    width: 70vw;
+    max-width: 600px;
+    min-width: 300px;
+}
+
+.ticketBtn {
+    margin-top: 3vh;
+}
+
+.ticketBtn > a > img {
+    width: 170px;
+}
+
 .str {
     bottom: 0;
-    height: 2.77777778rem;
+    height: 3.33333333rem;
     left: 50%;
     margin-left: -50%;
     position: absolute;
@@ -20,6 +33,11 @@
     text-align: center;
     top: auto;
     width: 100%;
+    margin-bottom: 10px;
+}
+
+.str > p {
+    margin: 5px;
 }
 
 .str > span {
@@ -36,6 +54,8 @@
     right: auto;
     top: auto;
     width: 0.91666667rem;
+    -webkit-filter: brightness(1) invert(1);
+    filter: brightness(1) invert(1);
 }
 
 @keyframes scrolldown {
