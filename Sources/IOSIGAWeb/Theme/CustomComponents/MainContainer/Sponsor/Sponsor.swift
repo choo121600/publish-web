@@ -21,6 +21,9 @@ struct Sponsor: Component {
                 }
                 Span{}.class("title-right-line")
             }.class("sub-sec-title")
+            Div {
+                Image("/static/images/sponsors/logo_ko.png")
+            }.class("sponsor-container")
         }.id("main-sponsor")
     }
 }

@@ -1,12 +1,19 @@
-/**/
-/**/
-/*#main-sponsor {*/
-/*    height: 100vh;*/
-/*    display: flex;*/
-/*    z-index: 1;*/
-/*    position: relative;*/
-/*    background-color: #006796;*/
-/*    flex-direction: column;*/
-/*    justify-content: center;*/
-/*    align-items: center;*/
-/*}*/
+
+
+#main-sponsor {
+    min-height: 70vh;
+    display: flex;
+    z-index: 1;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#main-sponsor > .sponsor-container {
+    margin-top: 10vh;
+}
+
+#main-sponsor > .sponsor-container > img {
+    width: 300px;
+}
