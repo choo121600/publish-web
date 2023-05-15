@@ -1,0 +1,49 @@
+#main-location {
+    padding-top: 120px;
+    display: flex;
+    z-index: 1;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.location-container {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 1rem;
+    width: 100%;
+    min-height: 700px;
+    justify-content: center;
+}
+
+.location-discription {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+.location-map {
+    height: 50vh;
+    width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+    .location-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .location-discription {
+        text-align: left;
+    }
+
+    .location-map {
+        height: 100%;
+        width: 100%;
+    }
+}
+
+

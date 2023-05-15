@@ -1,0 +1,141 @@
+
+#main-banner {
+    height: 100vh;
+    display: flex;
+    z-index: 1;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec-banner > img {
+    width: 70vw;
+    max-width: 600px;
+    min-width: 300px;
+}
+
+.ticketBtn {
+    margin-top: 3vh;
+}
+
+.ticketBtn > a > img {
+    width: 170px;
+}
+
+.str {
+    bottom: 0;
+    height: 3.33333333rem;
+    left: 50%;
+    margin-left: -50%;
+    position: absolute;
+    right: auto;
+    text-align: center;
+    top: auto;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.str > p {
+    margin: 5px;
+}
+
+.str > span {
+    animation: scrolldown 2s infinite;
+    background-image: url("../images/underArrow.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    bottom: 0.83333333rem;
+    display: inline-block;
+    height: 0.86111111rem;
+    left: 50%;
+    margin-left: -0.44444444rem;
+    position: absolute;
+    right: auto;
+    top: auto;
+    width: 0.91666667rem;
+    -webkit-filter: brightness(1) invert(1);
+    filter: brightness(1) invert(1);
+}
+
+@keyframes scrolldown {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(100%);
+  }
+}
+
+
+.sub-sec {
+    box-sizing: border-box;
+    overflow: hidden;
+    padding: 2.22222222rem 0;
+}
+
+.sub-sec-title > h3 {
+    background: linear-gradient(90deg,#4aa69d,#2d73b6);
+    -webkit-background-clip: text;
+    color: transparent;
+    display: inline-block;
+    font-family: sans-serif;
+    font-size: 2.5rem;
+    line-height: 2.7777rem;
+    position: relative;
+    font-weight: 800;
+}
+
+
+/*.sub-sec-title > .title-left-line {*/
+/*    bottom: auto;*/
+/*    display: inline-block;*/
+/*    height: 100%;*/
+/*    left: 0;*/
+/*    position: relative;*/
+/*    right: auto;*/
+/*    top: 0;*/
+/*    width: 0.13888889rem;*/
+/*}*/
+/**/
+/*.sub-sec-title > .title-left-line:after {*/
+/*    background-color: #49a49e;*/
+/*    bottom: auto;*/
+/*    content: "";*/
+/*    display: block;*/
+/*    height: 0.02777778rem;*/
+/*    margin: 0.27777778rem 0 0 0.83333333rem;*/
+/*    position: absolute;*/
+/*    right: auto;*/
+/*    top: 50%;*/
+/*    -webkit-transform: translate(-100%,-50%);*/
+/*    transform: translate(-100%,-50%);*/
+/*    width: 100vw;*/
+/*}*/
+/**/
+/*.sub-sec-title > .title-right-line {*/
+/*    bottom: auto;*/
+/*    display: inline-block;*/
+/*    height: 100%;*/
+/*    left: auto;*/
+/*    position: relative;*/
+/*    right: 0;*/
+/*    top: 0;*/
+/*    width: 0.13888889rem;*/
+/*}*/
+/**/
+/*.sub-sec-title > .title-right-line:after {*/
+/*    background-color: #2e73b6;*/
+/*    bottom: auto;*/
+/*    content: "";*/
+/*    display: block;*/
+/*    height: 0.02777778rem;*/
+/*    left: auto;*/
+/*    margin-top: 0.27777778rem;*/
+/*    position: absolute;*/
+/*    right: 0;*/
+/*    top: 50%;*/
+/*    -webkit-transform: translate(100%,-50%);*/
+/*    transform: translate(100%,-50%);*/
+/*    width: 100vw;*/
+/*}*/

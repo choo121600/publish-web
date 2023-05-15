@@ -1,0 +1,55 @@
+
+#main-intro {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#main-intro > .mainIntroLogo {
+    margin-top: 200px;
+}
+
+#main-intro > .mainIntroLogo > img {
+    width: 20vw;
+    max-width: 170px;
+    min-width: 150px;
+}
+
+#main-intro > .mainIntroLogo > .horizontal-line {
+    width: 40vw;
+    max-width: 500px;
+    min-width: 300px;
+    text-align: center;
+    display: block;
+    border-top: 1px solid #D9D9D9;
+    margin: 10px auto;
+    transform: translateY(-30px);
+}
+
+#main-intro > .main-description {
+    margin: 0px 20px 20px 20px;
+}
+
+#main-intro > .main-description > p {
+    font-size: 1.1em;
+    line-height: 2;
+}
+
+#main-intro > .sub-description {
+    margin: 20px;
+}
+
+#main-intro > .sub-description > p {
+    font-size: 1.1em;
+    line-height: 2;
+}
+
+#main-intro > .techTalkBtn {
+    margin-top: 3vh;
+}
+
+
+#main-intro > .techTalkBtn > a > img {
+    width: 200px;
+}
