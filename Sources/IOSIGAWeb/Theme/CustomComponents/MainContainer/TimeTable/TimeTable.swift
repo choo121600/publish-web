@@ -40,8 +40,8 @@ struct TimeTable: Component {
                                 TableCell("14:10 ~ 14:40").class("session-time")
                                 TableCell{
                                     Div {
-                                        Span("기타치다가 Swift 개발자가 된 이야기").class("session-title")
                                         Span("#Swift").class("session-tag")
+                                        Span("기타치다가 Swift 개발자가 된 이야기").class("session-title")
                                     }.class("session-info")
                                     Div{
                                         Span("GeekCode | Swift 개발자")
@@ -52,8 +52,8 @@ struct TimeTable: Component {
                                 TableCell("14:40 ~ 15:10").class("session-time")
                                 TableCell{
                                     Div {
-                                        Span("Chat GPT 로 iOS App 만들기").class("session-title")
                                         Span("#ML").class("session-tag")
+                                        Span("Chat GPT 로 iOS App 만들기").class("session-title")
                                     }.class("session-info")
                                     Div{
                                         Span("With 오거나이저 | Swift, ML 개발자")
@@ -72,8 +72,8 @@ struct TimeTable: Component {
                                 TableCell("15:40 ~ 16:10").class("session-time")
                                 TableCell{
                                     Div {
-                                        Span("마! 이게 생산성이다 - 생산성을 위한 CLI 구축").class("session-title")
                                         Span("#Swift").class("session-tag")
+                                        Span("마! 이게 생산성이다 - 생산성을 위한 CLI 구축").class("session-title")
                                     }.class("session-info")
                                     Div{
                                         Span("Jihoon Ahn | Swift 개발자")
@@ -84,8 +84,8 @@ struct TimeTable: Component {
                                 TableCell("16:10 ~ 16:40").class("session-time")
                                 TableCell{
                                     Div {
-                                        Span("Swift Coding Club의 오거나이저").class("session-title")
                                         Span("#Swift").class("session-tag")
+                                        Span("Swift Coding Club의 오거나이저").class("session-title")
                                     }.class("session-info")
                                     Div{
                                         Span("햄식 | Swift 개발자")
@@ -96,8 +96,8 @@ struct TimeTable: Component {
                                 TableCell("16:40 ~ 17:10").class("session-time")
                                 TableCell{
                                     Div {
-                                        Span("ML on iOS").class("session-title")
                                         Span("#ML").class("session-tag")
+                                        Span("ML on iOS").class("session-title")
                                     }.class("session-info")
                                     Div{
                                         Span("김현길 or 이준원 | ML 개발자")
@@ -116,8 +116,8 @@ struct TimeTable: Component {
                                 TableCell("17:20 ~ 17:50").class("session-time")
                                 TableCell{
                                     Div {
-                                        Span("테크토크- 무엇이든 물어보세요").class("session-title")
                                         Span("#Talk").class("session-tag")
+                                        Span("테크토크- 무엇이든 물어보세요").class("session-title")
                                     }.class("session-info")
                                     Div{
                                         Span("진행자: Leeo")

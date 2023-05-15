@@ -102,6 +102,7 @@
 .session-describe > .session-info > .session-title {
     font-size: 1em;
     font-weight: 700;
+    margin-left: 5px;
 }
 
 .session-describe > .speaker-info {
