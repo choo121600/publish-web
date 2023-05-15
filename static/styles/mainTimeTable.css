@@ -96,13 +96,12 @@
     border-radius: 0.533333rem 0.533333333rem;
     background-color: #D9D9D9;
     color: #555555;
-
+    margin: 5px;
 }
 
 .session-describe > .session-info > .session-title {
     font-size: 1em;
     font-weight: 700;
-    margin-left: 5px;
 }
 
 .session-describe > .speaker-info {

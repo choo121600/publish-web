@@ -14,6 +14,27 @@
     margin-top: 10vh;
 }
 
-#main-sponsor > .sponsor-container > img {
-    width: 300px;
+#main-sponsor > .sponsor-container > a > img {
+    width: 250px;
 }
+
+#main-sponsor > .sponsor-description {
+    width: 80%;
+    margin-top: 10vh;
+    max-width: 500px;
+}
+
+#main-sponsor > .sponsor-description > p {
+    margin-top: 3vh;
+    font-size: 1em;
+    line-height: 1.5;
+}
+
+#main-sponsor > .join-sponsorBtn {
+    margin-top: 5vh;
+}
+
+#main-sponsor > .join-sponsorBtn > a > img {
+    width: 200px;
+}
+
