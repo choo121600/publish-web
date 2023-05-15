@@ -32,7 +32,7 @@ struct TimeTable: Component {
                                 TableCell("14:00 ~ 14:10").class("session-time")
                                 TableCell{
                                     Div {
-                                        Span("오프닝 | 소낙.").class("session-title")
+                                        Span("오프닝 | 소낙").class("session-title")
                                     }.class("session-info")
                                 }.class("session-describe")
                             }
