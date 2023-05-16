@@ -23,8 +23,12 @@ struct SiteFooter<Site: Website>: Component {
                     Paragraph {
                         Text("Made with Swift | Publish ")
                     }
-                }.class("copyright")
-            }.class("footer-container")
+                }.class("footer-copyright")
+                Div{}.class("wave").id("wave1")
+                Div{}.class("wave").id("wave2")
+                Div{}.class("wave").id("wave3")
+                Div{}.class("wave").id("wave4")
+            }.class("waves")
         }.id("footer").class("inner")
     }
 }
