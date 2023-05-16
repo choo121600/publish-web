@@ -2,6 +2,7 @@
 
 #main-sponsor {
     min-height: 100vh;
+    margin-top: 120px;
     display: flex;
     z-index: 1;
     position: relative;
