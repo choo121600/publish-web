@@ -44,12 +44,49 @@
 }
 
 .location-sub-sec > .location-discription {
+    margin-top: 27px;
     width: 80%;
     display: flex;
     flex-direction: column;
     text-align: center;
     justify-content: center;
     align-items: flex-start;
+}
+
+.location-sub-sec > .location-discription > .main-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.location-sub-sec > .location-discription > .main-info > .info-hard {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.location-sub-sec > .location-discription > .main-info > .info-light {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.location-sub-sec > .location-discription > .info-space {
+    margin-top: 60px;
+}
+
+.location-sub-sec > .location-discription > .sub-info {
+    margin-top: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.location-sub-sec > .location-discription > .sub-info > .info-hard {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.location-sub-sec > .location-discription > .sub-info > .info-light {
+    margin-top: 4px;
 }
 
 .location-map {
