@@ -1,7 +1,8 @@
 #main-location {
-    padding-top: 120px;
+    margin-top: 120px;
     display: flex;
     z-index: 1;
+    background: #F5F5F5;
     position: relative;
     flex-direction: column;
     justify-content: center;
@@ -9,7 +10,6 @@
 }
 
 .location-container {
-    margin-top: 30px;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-gap: 1rem;
@@ -18,12 +18,38 @@
     justify-content: center;
 }
 
-.location-discription {
+.location-sub-sec {
     display: flex;
-    align-items: center;
+        height: 50vh;
+        flex-direction: column;
+        margin-top: 120px;
+        align-items: center;
+}
+
+.location-sub-sec > .sub-sec-title {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.location-sub-sec > .sub-sec-title > .title-under-line{
+    width: 40vw;
+    max-width: 500px;
+    min-width: 300px;
+    text-align: center;
+    display: block;
+    border-top: 2px solid black;
+    margin: 10px 0;
+}
+
+.location-sub-sec > .location-discription {
+    width: 80%;
+    display: flex;
     flex-direction: column;
     text-align: center;
     justify-content: center;
+    align-items: flex-start;
 }
 
 .location-map {
