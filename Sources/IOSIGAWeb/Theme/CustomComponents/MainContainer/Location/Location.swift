@@ -25,19 +25,19 @@ struct Location: Component {
     var body: Component {
         Div {
             Div {
-                Span{}.class("title-left-line")
-                H3 {
-                    Text("Location")
-                }
-                Span{}.class("title-right-line")
-            }.class("sub-sec-title")
-            
-            Div {
-                Div {
-                    H3("행사장 위치")
-                    Paragraph("부산광역시 남구 대연제 3동 용소로 19번길 15, 2층")
-                    Paragraph("경성대, 부경대역 3번 출구에서 도보 8분")
-                }.class("location-discription")
+                Div{
+                    Div {
+                        Image("static/images/main/titles/location.png")
+                        Span{}.class("title-under-line")
+                    }.class("sub-sec-title")
+                    Div {
+                        Paragraph("부산광역시 남구 대연제 3동 용소로 19번길 15,")
+                        Paragraph("카페위드(CAFE WITH) 2층")
+                        Paragraph("경성대, 부경대역 3번 출구에서 도보 8분")
+                        
+                        
+                    }.class("location-discription")
+                }.class("location-sub-sec")
                 NaverMap().class("location-map")
             }.class("location-container")
         }.id("main-location")

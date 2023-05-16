@@ -15,16 +15,15 @@ struct SpeakerTable: Component {
     var body: Component {
         Div {
             Div {
-                Span{}.class("title-left-line")
-                H3 {
-                    Text("Speakers")
-                }
-                Span{}.class("title-right-line")
+                Image("static/images/main/titles/speakers.png")
+                Span{}.class("title-under-line")
             }.class("sub-sec-title")
             Div {
                 Link(url: "https://github.com/isGeekCode") {
                     Div {
-                        Image("/static/images/speakers/geekcode.jpeg")
+                        Div {
+                            Image("/static/images/speakers/geekcode.jpeg")
+                        }.class("profile-img-wrap")
                         H4 {
                             Text("GeekCode")
                         }
@@ -33,7 +32,9 @@ struct SpeakerTable: Component {
                 }
                 Link(url: "https://github.com/Jihoonahn") {
                     Div {
-                        Image("/static/images/speakers/jihoon.jpeg")
+                        Div {
+                            Image("/static/images/speakers/jihoon.jpeg")
+                        }.class("profile-img-wrap")
                         H4 {
                             Text("Jihoon Ahn")
                         }
@@ -42,16 +43,9 @@ struct SpeakerTable: Component {
                 }
                 Link(url: "https://github.com/isGeekCode") {
                     Div {
-                        Image("/static/images/speakers/geekcode.jpeg")
-                        H4 {
-                            Text("GeekCode")
-                        }
-                        Paragraph("iOS Developer, 기타 치는 걸 좋아해요. ")
-                    }.class("profile-card")
-                }
-                Link(url: "https://github.com/isGeekCode") {
-                    Div {
-                        Image("/static/images/speakers/geekcode.jpeg")
+                        Div {
+                            Image("/static/images/speakers/geekcode.jpeg")
+                        }.class("profile-img-wrap")
                         H4 {
                             Text("GeekCode")
                         }
@@ -60,7 +54,9 @@ struct SpeakerTable: Component {
                 }
                 Link(url: "https://github.com/choo121600") {
                     Div {
-                        Image("/static/images/organizers/yeonguk.jpeg")
+                        Div {
+                            Image("/static/images/organizers/yeonguk.jpeg")
+                        }.class("profile-img-wrap")
                         H4 {
                             Text("추영욱")
                         }
@@ -69,7 +65,9 @@ struct SpeakerTable: Component {
                 }
                 Link(url: "https://github.com/Jinsujin") {
                     Div {
-                        Image("/static/images/organizers/sujin.jpeg")
+                        Div {
+                            Image("/static/images/organizers/sujin.jpeg")
+                        }.class("profile-img-wrap")
                         H4 {
                             Text("Rosa")
                         }
@@ -78,7 +76,9 @@ struct SpeakerTable: Component {
                 }
                 Link(url: "https://github.com/cpprhtn") {
                     Div {
-                        Image("/static/images/organizers/junwon.jpeg")
+                        Div {
+                            Image("/static/images/organizers/junwon.jpeg")
+                        }.class("profile-img-wrap")
                         H4 {
                             Text("이준원")
                         }

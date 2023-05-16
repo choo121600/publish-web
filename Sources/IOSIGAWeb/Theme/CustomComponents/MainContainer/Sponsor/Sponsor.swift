@@ -15,11 +15,8 @@ struct Sponsor: Component {
     var body: Component {
         Div {
             Div {
-                Span{}.class("title-left-line")
-                H3 {
-                    Text("Sponsor")
-                }
-                Span{}.class("title-right-line")
+                Image("static/images/main/titles/partners.png")
+                Span{}.class("title-under-line")
             }.class("sub-sec-title")
             Div {
                 Link(url: "https://pytorch.kr/"){

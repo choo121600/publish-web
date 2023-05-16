@@ -15,15 +15,12 @@ struct TimeTable: Component {
     var body: Component {
         Div {
             Div {
-                Span{}.class("title-left-line")
-                H3 {
-                    Text("Timetable")
-                }
-                Span{}.class("title-right-line")
+                Image("static/images/main/titles/timetable.png")
+                Span{}.class("title-under-line")
             }.class("sub-sec-title")
             Div {
                 Div {
-                    Image("/static/images/main/Program.png")
+                    Image("/static/images/main/titles/timetable.png")
                 }.class("session-header")
                 Div {
                     Table(

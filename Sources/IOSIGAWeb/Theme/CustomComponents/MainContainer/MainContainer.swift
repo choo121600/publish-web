@@ -17,9 +17,9 @@ struct MainContainer: Component {
             MainBanner(context: context)
             MainIntro(context: context)
             TimeTable(context: context)
+            Location(context: context)
             SpeakerTable(context: context)
             OrganizationTable(context: context)
-            Location(context: context)
             Sponsor(context: context)
         }.class("main")
     }

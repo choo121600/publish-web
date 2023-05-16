@@ -25,7 +25,11 @@
     padding: 0.5rem;
 }
 
-.profile-card > img {
+.profile-card > .profile-img-wrap {
+
+}
+
+.profile-card > .profile-img-wrap > img {
     border-radius: 50%;
     width: 150px;
     height: 150px;

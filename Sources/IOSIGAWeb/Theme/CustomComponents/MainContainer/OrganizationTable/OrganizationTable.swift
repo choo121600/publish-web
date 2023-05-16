@@ -15,16 +15,15 @@ struct OrganizationTable: Component {
     var body: Component {
         Div {
             Div {
-                Span{}.class("title-left-line")
-                H3 {
-                    Text("Organizers")
-                }
-                Span{}.class("title-right-line")
+                Image("static/images/main/titles/organizers.png")
+                Span{}.class("title-under-line")
             }.class("sub-sec-title")
             Div {
                 Link(url: "https://github.com/choo121600") {
                     Div {
-                        Image("/static/images/organizers/yeonguk.jpeg")
+                        Div {
+                            Image("/static/images/organizers/yeonguk.jpeg")
+                        }.class("profile-img-wrap")
                         H4 {
                             Text("추영욱")
                         }
@@ -33,7 +32,9 @@ struct OrganizationTable: Component {
                 }
                 Link(url: "https://github.com/Jinsujin") {
                     Div {
-                        Image("/static/images/organizers/sujin.jpeg")
+                        Div {
+                            Image("/static/images/organizers/sujin.jpeg")
+                        }.class("profile-img-wrap")
                         H4 {
                             Text("Rosa")
                         }
@@ -42,7 +43,9 @@ struct OrganizationTable: Component {
                 }
                 Link(url: "https://github.com/cpprhtn") {
                     Div {
-                        Image("/static/images/organizers/junwon.jpeg")
+                        Div {
+                            Image("/static/images/organizers/junwon.jpeg")
+                        }.class("profile-img-wrap")
                         H4 {
                             Text("이준원")
                         }
@@ -51,7 +54,9 @@ struct OrganizationTable: Component {
                 }
                 Link(url: "https://github.com/M1zz") {
                     Div {
-                        Image("/static/images/organizers/leeo.jpeg")
+                        Div {
+                            Image("/static/images/organizers/leeo.jpeg")
+                        }.class("profile-img-wrap")
                         H4 {
                             Text("Leeo")
                         }
