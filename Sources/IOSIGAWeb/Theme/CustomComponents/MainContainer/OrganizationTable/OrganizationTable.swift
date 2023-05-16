@@ -33,7 +33,7 @@ struct OrganizationTable: Component {
                 Link(url: "https://github.com/Jinsujin") {
                     Div {
                         Div {
-                            Image("/static/images/organizers/sujin.jpeg")
+                            Image("/static/images/organizers/rosa.png")
                         }.class("profile-img-wrap")
                         H4 {
                             Text("Rosa")
