@@ -31,11 +31,23 @@ struct Location: Component {
                         Span{}.class("title-under-line")
                     }.class("sub-sec-title")
                     Div {
-                        Paragraph("부산광역시 남구 대연제 3동 용소로 19번길 15,")
-                        Paragraph("카페위드(CAFE WITH) 2층")
-                        Paragraph("경성대, 부경대역 3번 출구에서 도보 8분")
+                        Div{
+                            Paragraph("부산광역시 남구 대연제 3동 용소로 19번길 15,").class("info-hard")
+                            Paragraph("카페위드(CAFE WITH) 2층").class("info-hard")
+                        }.class("main-info")
+                        Div{
+                            Paragraph("경성대, 부경대역 3번 출구에서 도보 8분").class("info-light")
+                        }.class("sub-info")
                         
+                        Paragraph().class("info-space")
                         
+                        Div{
+                            Paragraph("주차안내").class("info-hard")
+                        }.class("main-info")
+                        Div{
+                            Paragraph("행사장소에서 무료주차 제공").class("info-light")
+                            Paragraph("여유 자리가 없는경우 근처 유료주차장을 이용해 주세요.").class("info-light")
+                        }.class("sub-info")
                     }.class("location-discription")
                 }.class("location-sub-sec")
                 NaverMap().class("location-map")
