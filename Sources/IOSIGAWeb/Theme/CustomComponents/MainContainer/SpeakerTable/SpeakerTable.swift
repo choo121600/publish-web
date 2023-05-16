@@ -41,15 +41,15 @@ struct SpeakerTable: Component {
                         Paragraph("Swift Developer 🪶")
                     }.class("profile-card")
                 }
-                Link(url: "https://github.com/isGeekCode") {
+                Link(url: "https://github.com/hamsik22") {
                     Div {
                         Div {
-                            Image("/static/images/speakers/geekcode.jpeg")
+                            Image("/static/images/speakers/hamsik.jpeg")
                         }.class("profile-img-wrap")
                         H4 {
-                            Text("GeekCode")
+                            Text("햄식")
                         }
-                        Paragraph("iOS Developer, 기타 치는 걸 좋아해요. ")
+                        Paragraph("iOS Developer")
                     }.class("profile-card")
                 }
                 Link(url: "https://github.com/choo121600") {
