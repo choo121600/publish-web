@@ -29,10 +29,15 @@ struct WebPage: Website {
     }
 
     // Update these properties to configure your website:
-    var url = URL(string: "https://your-website-url.com")!
+    var url = URL(string: "https://publish-web.vercel.app")!
     var name = "iOS iGA"
     var description = "iOS 개발자들을 위한 iOS iGA 2023에서 모두 함께 즐겨보아요."
     var language: Language { .english }
-    var imagePath: Path? { nil }
+    var imagePath: Path? {
+        "/static/images/main/web-preview.png"
+    }
+    var favicon: Favicon? {
+        Favicon(path: "/static/images/main/favicon-32x32.png", type: "image/x-icon")
+    }
 }
 
