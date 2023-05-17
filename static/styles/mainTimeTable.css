@@ -52,6 +52,7 @@
     width: 100%;
     display: flex;
     justify-content: center;
+    margin-bottom: 50px;
 }
 
 .session-table {
@@ -63,14 +64,13 @@
 }
 
 .session-time {
-    border-right: 1px solid #cfcfcf;
     text-align: left;
     width: 26%;
-    border-bottom: 1px solid #cfcfcf;
+    border-bottom: 2px solid black;
     box-sizing: border-box;
     color: #333;
     font-size: 1.2rem;
-    padding: 0.9rem 0.7rem;
+    padding: 1.2rem 0.7rem;
     font-family: Arial;
 }
 
@@ -80,11 +80,11 @@
     text-align: left;
     vertical-align: top;
     width: 70%;
-    border-bottom: 1px solid #cfcfcf;
+    border-bottom: 2px solid black;
     box-sizing: border-box;
     color: #333;
     font-size: 1.2rem;
-    padding: 0.9rem 0.7rem;
+    padding: 1.2rem 0.7rem;
 }
 
 .breaktime {

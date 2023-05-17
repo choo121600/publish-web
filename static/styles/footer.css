@@ -3,13 +3,9 @@
 #footer {
     position: relative;
     width: 100%;
-    background: #0099FF;
+    background: #1A2A34;
     min-height: 50px;
     padding: 20px 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
 }
 
 .footer-copyright {
@@ -21,11 +17,16 @@
 }
 
 .footer-copyright > p {
-    color: white
+    color: #C9C9C9;
 }
 
+.footer-copyright > p > .bold{
+    font-weight: 500;
+}
+
+
 .footer-copyright > p > a {
-    color: white
+    color: #C9C9C9;
 }
 
 .waves {
@@ -41,7 +42,7 @@
   left: 0;
   width: 100%;
   height: 100px;
-  background: url("/static/images/main/wavefooter.png");
+  background: url("/static/images/main/wave-dark.png");
   background-size: 1000px 100px;
 }
 
