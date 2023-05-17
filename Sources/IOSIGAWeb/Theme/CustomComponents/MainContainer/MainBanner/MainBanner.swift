@@ -18,10 +18,13 @@ struct MainBanner: Component {
                 Image("/static/images/main/mainBanner.png")
             }.class("sec-banner")
             Div {
-                Link(url: "https://festa.io/events/3506"){
-                    Image("/static/images/main/ticketBtn.png")
-                }
-            }.class("ticketBtn")
+                Paragraph("페스타를 통해 6월 8일 오픈")
+            }.class("before-open-ticket")
+//            Div {
+//                Link(url: "https://festa.io/events/3506"){
+//                    Image("/static/images/main/ticketBtn.png")
+//                }
+//            }.class("ticketBtn")
             Div {
                 Paragraph {
                     Text("Scoll to Read")

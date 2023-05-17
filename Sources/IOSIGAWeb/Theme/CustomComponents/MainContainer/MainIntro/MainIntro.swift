@@ -32,10 +32,14 @@ struct MainIntro: Component {
                 Paragraph("새로운 만남과 인사이트를 얻어 가실 수 있는 세미나, iOS iGA(아이가) 에서 곧 만나요~ 👋🏻")
             }.class("sub-description")
             Div {
-                Link(url: "https://festa.io/events/3506"){
-                    Image("/static/images/main/beforeTechTalkBtn.png")
-                }
-            }.class("techTalkBtn")
+                Paragraph("테크토크 사전질문")
+                Paragraph("7월 2일 오픈")
+            }.class("before-open-question")
+//            Div {
+//                Link(url: "https://festa.io/events/3506"){
+//                    Image("/static/images/main/beforeTechTalkBtn.png")
+//                }
+//            }.class("techTalkBtn")
         }.id("main-intro").class("inner")
     }
 }
