@@ -16,6 +16,9 @@ struct SiteFooter<Site: Website>: Component {
         Footer {
             Div {
                 Div {
+                    Paragraph{
+                        Text("문의: help.ios.iga@gmail.com")
+                    }
                     Paragraph {
                         Text("Copyright © iOS-iGA / ")
                         Link("Yeonguk Choo", url: "https://github.com/choo121600")
