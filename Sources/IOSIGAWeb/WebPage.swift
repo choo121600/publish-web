@@ -34,7 +34,7 @@ struct WebPage: Website {
     var description = "iOS 개발자들을 위한 iOS iGA 2023에서 모두 함께 즐겨보아요."
     var language: Language { .english }
     var imagePath: Path? {
-        "/static/images/main/web-preview.png"
+        return Path("https://publish-web.vercel.app/static/images/main/web-preview.png")
     }
     var favicon: Favicon? {
         Favicon(path: "/static/images/main/favicon-32x32.png", type: "image/x-icon")
