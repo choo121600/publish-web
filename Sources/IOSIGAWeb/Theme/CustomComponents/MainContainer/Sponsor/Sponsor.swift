@@ -33,7 +33,7 @@ struct Sponsor: Component {
             }.class("sponsor-description")
             Div {
                 Link(url: "https://festa.io/events/3506"){
-                    Image("/static/images/main/joinSponsorBtn.png")
+                    Image("/static/images/main/joinPartnerBtn.png")
                 }
             }.class("join-sponsorBtn")
         }.id("main-sponsor")
