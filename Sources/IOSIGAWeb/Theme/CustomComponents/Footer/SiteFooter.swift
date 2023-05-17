@@ -17,14 +17,15 @@ struct SiteFooter<Site: Website>: Component {
             Div {
                 Div {
                     Paragraph{
-                        Text("문의: help.ios.iga@gmail.com")
+                        Span("문의: ").class("bold")
+                        Text("help.ios.iga@gmail.com")
                     }
                     Paragraph {
-                        Text("Copyright © iOS-iGA / ")
+                        Text("Copyright © iOS-iGA | ")
                         Link("Yeonguk Choo", url: "https://github.com/choo121600")
                     }
                     Paragraph {
-                        Text("Made with Swift | Publish ")
+                        Text("Made with Swift")
                     }
                 }.class("footer-copyright")
                 Div{}.class("wave").id("wave1")

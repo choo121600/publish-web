@@ -15,10 +15,6 @@ struct TimeTable: Component {
     var body: Component {
         Div {
             Div {
-                Image("static/images/main/titles/timetable.png")
-                Span{}.class("title-under-line")
-            }.class("sub-sec-title")
-            Div {
                 Div {
                     Image("/static/images/main/titles/timetable.png")
                 }.class("session-header")
@@ -124,10 +120,18 @@ struct TimeTable: Component {
                                 }.class("session-describe")
                             }
                             TableRow {
-                                TableCell("18:00 ~ 22:00").class("session-time")
+                                TableCell("17:50 ~ 18:00").class("session-time")
                                 TableCell{
                                     Div {
                                         Span("클로징 | 로사").class("session-title")
+                                    }.class("session-info")
+                                }.class("session-describe")
+                            }
+                            TableRow {
+                                TableCell("18:00 ~ 21:30").class("session-time")
+                                TableCell{
+                                    Div {
+                                        Span("네트워킹").class("session-title")
                                     }.class("session-info")
                                 }.class("session-describe")
                             }
