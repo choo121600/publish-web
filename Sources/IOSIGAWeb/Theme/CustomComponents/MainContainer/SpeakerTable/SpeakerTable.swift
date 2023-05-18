@@ -49,7 +49,7 @@ struct SpeakerTable: Component {
                         H4 {
                             Text("햄식")
                         }
-                        Paragraph("iOS Developer")
+                        Paragraph("나를 개발하는 개발자")
                     }.class("profile-card")
                 }
                 Link(url: "https://github.com/choo121600") {
