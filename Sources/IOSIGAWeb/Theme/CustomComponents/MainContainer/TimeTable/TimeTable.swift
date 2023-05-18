@@ -25,8 +25,11 @@ struct TimeTable: Component {
                                 TableCell("14:00 ~ 14:10").class("session-time")
                                 TableCell{
                                     Div {
-                                        Span("오프닝 | 소낙").class("session-title")
+                                        Span("오프닝").class("session-title")
                                     }.class("session-info")
+                                    Div{
+                                        Span("추영욱 | ML, Swift 개발자")
+                                    }.class("speaker-info")
                                 }.class("session-describe")
                             }
                             TableRow {
@@ -123,8 +126,11 @@ struct TimeTable: Component {
                                 TableCell("17:50 ~ 18:00").class("session-time")
                                 TableCell{
                                     Div {
-                                        Span("클로징 | 로사").class("session-title")
+                                        Span("클로징").class("session-title")
                                     }.class("session-info")
+                                    Div{
+                                        Span("로사 | Swift 개발자")
+                                    }.class("speaker-info")
                                 }.class("session-describe")
                             }
                             TableRow {
