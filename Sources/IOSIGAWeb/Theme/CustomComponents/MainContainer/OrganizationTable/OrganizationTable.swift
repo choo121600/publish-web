@@ -49,7 +49,7 @@ struct OrganizationTable: Component {
                         H4 {
                             Text("이준원")
                         }
-                        Paragraph("AI 코딩하는 고양이입니다")
+                        Paragraph("AI 코딩하는 고양이입니다.")
                     }.class("profile-card")
                 }
                 Link(url: "https://github.com/M1zz") {
