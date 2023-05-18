@@ -82,7 +82,7 @@ struct SpeakerTable: Component {
                         H4 {
                             Text("이준원")
                         }
-                        Paragraph("AI student")
+                        Paragraph("AI 코딩하는 고양이입니다")
                     }.class("profile-card")
                 }
             }.class("profile-list")
