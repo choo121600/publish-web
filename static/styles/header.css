@@ -15,13 +15,6 @@
     padding: 1.24em 0;
 }
 
-.header-container > h1 {
-    color: white;
-    font-family: Arial;
-    font-size: 1.2rem;
-    font-weight: 600;
-}
-
 .logo { display: inline-block; }
 
 .logo > img {
