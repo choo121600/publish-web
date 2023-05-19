@@ -16,7 +16,7 @@ struct SiteHeader<Site: Website>: Component {
     var body: Component {
         Header {
             Div {
-                H1 {
+                Link(url: "/"){
                     Image("/static/images/main/mainLogo.png")
                 }.class("logo")
             }.class("header-container")
