@@ -1,6 +1,8 @@
 
 #header {
     width: 100%;
+    display: flex;
+    justify-content: center;
     background:white;
     background-attachment: fixed;
 }
@@ -8,8 +10,9 @@
 #header { position: fixed; top: 0; left: 0; z-index: 999999; }
 #header > .header-container {
     display: flex;
-    justify-content: space-between;
-    padding: 1.250em 1.40em;
+    width: 90%;
+    justify-content: flex-start;
+    padding: 1.24em 0;
 }
 
 .header-container > h1 {
