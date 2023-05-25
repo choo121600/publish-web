@@ -27,7 +27,7 @@ struct MainBanner: Component {
 //            }.class("ticketBtn")
             Div {
                 Paragraph {
-                    Text("Scoll to Read")
+                    Text("Scroll to Read")
                 }
                 Span{}
             }.class("str")
