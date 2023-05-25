@@ -17,7 +17,7 @@
     display: flex;
     margin-top: 60px;
     width: 90%;
-    max-width: 1100px;
+    max-width: 990px;
     flex-direction: column;
     align-items: center;
     box-shadow: 0.7vw 0.7vw 0px #000000;
@@ -52,7 +52,7 @@
     width: 100%;
     display: flex;
     justify-content: center;
-    margin-bottom: 3vw;
+    margin-bottom: 2.7vw;
 }
 
 .session-table {
@@ -66,25 +66,24 @@
 .session-time {
     text-align: left;
     width: 26%;
-    border-bottom: 2px solid black;
+    border-bottom: 1.8px solid black;
     box-sizing: border-box;
     color: #333;
-    font-size: 1.2rem;
-    padding: 1.2rem 0.7rem;
+    font-size: 1.08rem;
+    padding: 1.08rem 0.63rem;
     font-family: Arial;
 }
 
 .session-describe {
-    box-sizing: border-box;
     font-weight: 400;
     text-align: left;
     vertical-align: top;
     width: 70%;
-    border-bottom: 2px solid black;
+    border-bottom: 1.8px solid black;
     box-sizing: border-box;
     color: #333;
-    font-size: 1.2rem;
-    padding: 1.2rem 0.7rem;
+    font-size: 1.08rem;
+    padding: 1.08rem 0.63rem;
 }
 
 .breaktime {
@@ -92,12 +91,12 @@
 }
 
 .session-describe > .session-info > .session-tag {
-    font-size: 0.8em;
-    padding: 2px 8px;
-    border-radius: 0.533333rem 0.533333333rem;
+    font-size: 0.72em;
+    padding: 1.8px 7.2px;
+    border-radius: 0.453333rem 0.453333333rem;
     background-color: #D9D9D9;
     color: #555555;
-    margin: 5px;
+    margin: auto 0 auto 4.5px;
 }
 
 .session-describe > .session-info > .session-title {
@@ -106,7 +105,7 @@
 }
 
 .session-describe > .speaker-info {
-    font-size: 0.9em;
+    font-size: 0.81em;
     font-weight: 400;
-    margin-top: 10px;
+    margin-top: 9px;
 }
