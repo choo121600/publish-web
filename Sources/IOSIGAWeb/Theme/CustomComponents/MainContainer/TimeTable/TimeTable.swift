@@ -85,8 +85,8 @@ struct TimeTable: Component {
                                 TableCell("17:00 ~ 17:30").class("session-time")
                                 TableCell{
                                     Div {
-                                        Span("iOS개발자의 CoreML 고군분투기").class("session-title")
-                                        Span("#Swift").class("session-tag")
+                                        Span("취준생이 커뮤니티를 하는 이유").class("session-title")
+                                        Span("#개발전반").class("session-tag")
                                     }.class("session-info")
                                     Div{
                                         Span("햄식 | Swift 개발자")
