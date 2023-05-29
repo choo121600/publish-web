@@ -38,6 +38,7 @@ struct TimeTable: Component {
                                     Div {
                                         Span("기타치다가 Swift 개발자가 된 이야기").class("session-title")
                                         Span("#Swift").class("session-tag")
+                                        Span("#무결성").class("session-tag")
                                     }.class("session-info")
                                     Div{
                                         Span("GeekCode | Swift 개발자")
@@ -73,11 +74,11 @@ struct TimeTable: Component {
                                 TableCell("16:20 ~ 16:50").class("session-time")
                                 TableCell{
                                     Div {
-                                        Span("ML on iOS").class("session-title")
+                                        Span("CNN에 대하여").class("session-title")
                                         Span("#ML").class("session-tag")
                                     }.class("session-info")
                                     Div{
-                                        Span("With 오거나이저 | Swift, ML 개발자")
+                                        Span("미정")
                                     }.class("speaker-info")
                                 }.class("session-describe")
                             }
@@ -85,11 +86,11 @@ struct TimeTable: Component {
                                 TableCell("17:00 ~ 17:30").class("session-time")
                                 TableCell{
                                     Div {
-                                        Span("취준생이 커뮤니티를 하는 이유").class("session-title")
-                                        Span("#개발전반").class("session-tag")
+                                        Span("ML on iOS").class("session-title")
+                                        Span("#ML").class("session-tag")
                                     }.class("session-info")
                                     Div{
-                                        Span("햄식 | Swift 개발자")
+                                        Span("With 오거나이저 | Swift, ML 개발자")
                                     }.class("speaker-info")
                                 }.class("session-describe")
                             }
