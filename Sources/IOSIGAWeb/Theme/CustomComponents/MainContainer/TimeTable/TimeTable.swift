@@ -74,7 +74,7 @@ struct TimeTable: Component {
                                 TableCell("16:20 ~ 16:50").class("session-time")
                                 TableCell{
                                     Div {
-                                        Span("CNN에 대하여").class("session-title")
+                                        Span("CNN에 대하여 - 이미지 분류").class("session-title")
                                         Span("#ML").class("session-tag")
                                     }.class("session-info")
                                     Div{
