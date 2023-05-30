@@ -41,17 +41,17 @@ struct SpeakerTable: Component {
                         Paragraph("Swift Developer 🪶")
                     }.class("profile-card")
                 }
-                Link(url: "https://github.com/hamsik22") {
-                    Div {
-                        Div {
-                            Image("/static/images/speakers/hamsik.jpeg")
-                        }.class("profile-img-wrap")
-                        H4 {
-                            Text("햄식")
-                        }
-                        Paragraph("나를 개발하는 개발자입니다.")
-                    }.class("profile-card")
-                }
+//                Link(url: "https://github.com/hamsik22") {
+//                    Div {
+//                        Div {
+//                            Image("/static/images/speakers/hamsik.jpeg")
+//                        }.class("profile-img-wrap")
+//                        H4 {
+//                            Text("햄식")
+//                        }
+//                        Paragraph("나를 개발하는 개발자입니다.")
+//                    }.class("profile-card")
+//                }
                 Link(url: "https://github.com/choo121600") {
                     Div {
                         Div {
