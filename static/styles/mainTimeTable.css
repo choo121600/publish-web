@@ -97,6 +97,7 @@
     background-color: #D9D9D9;
     color: #555555;
     margin: auto 0 auto 4.5px;
+    display: inline-block;
 }
 
 .session-describe > .session-info > .session-title {
