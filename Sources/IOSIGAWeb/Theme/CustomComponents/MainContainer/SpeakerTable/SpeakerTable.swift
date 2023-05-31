@@ -41,17 +41,6 @@ struct SpeakerTable: Component {
                         Paragraph("Swift Developer 🪶")
                     }.class("profile-card")
                 }
-//                Link(url: "https://github.com/hamsik22") {
-//                    Div {
-//                        Div {
-//                            Image("/static/images/speakers/hamsik.jpeg")
-//                        }.class("profile-img-wrap")
-//                        H4 {
-//                            Text("햄식")
-//                        }
-//                        Paragraph("나를 개발하는 개발자입니다.")
-//                    }.class("profile-card")
-//                }
                 Link(url: "https://github.com/choo121600") {
                     Div {
                         Div {
@@ -85,6 +74,18 @@ struct SpeakerTable: Component {
                         Paragraph("AI 코딩하는 고양이입니다.")
                     }.class("profile-card")
                 }
+                Link(url: "https://github.com/M1zz") {
+                    Div {
+                        Div {
+                            Image("/static/images/organizers/leeo.jpeg")
+                        }.class("profile-img-wrap")
+                        H4 {
+                            Text("Leeo")
+                        }
+                        Paragraph("개발보다는 협업을 좋아하는 개발자 입니다. ")
+                    }.class("profile-card")
+                }
+
             }.class("profile-list")
         }.id("main-spk-table").class("sub-sec")
     }
