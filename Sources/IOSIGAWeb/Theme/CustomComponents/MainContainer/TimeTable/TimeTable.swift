@@ -125,7 +125,7 @@ struct TimeTable: Component {
                                         Span("클로징").class("session-title")
                                     }.class("session-info")
                                     Div{
-                                        Span("Rosa | Swift 개발자")
+                                        Span("Rosa | 오거나이저")
                                     }.class("speaker-info")
                                 }.class("session-describe")
                             }
