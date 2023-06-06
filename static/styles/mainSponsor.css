@@ -38,11 +38,25 @@
 }
 
 #main-sponsor > .join-sponsorBtn {
-    margin-top: 5vh;
-    margin-bottom: 20vh;
+    display: flex;
+    width: 220px;
+    height: 40px;
+    margin-top: 3vh;
+    padding: 8px 14px 6px 10px;
+    background-color: #D9D9D9;
+    border: 1px solid;
+    border-radius: 16px;
+    box-shadow: 2px 2px 0px #000000;
+    align-items: center;
+    justify-content: space-around;
 }
 
-#main-sponsor > .join-sponsorBtn > a > img {
-    width: 200px;
+#main-sponsor > .join-sponsorBtn > span {
+    font-weight: 600;
+    font-size: 1.1em;
 }
 
+#main-sponsor > .join-sponsorBtn > img {
+    width: 14px;
+    height: 16px;
+}
