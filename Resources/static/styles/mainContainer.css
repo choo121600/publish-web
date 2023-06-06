@@ -15,26 +15,28 @@
     min-width: 300px;
 }
 
-#main-banner > .before-open-ticket {
+#main-banner > .ticketBtn {
+    display: flex;
+    width: 200px;
+    height: 40px;
     margin-top: 3vh;
-    padding: 5px 14px;
+    padding: 8px 10px 6px 30px;
     background-color: #D9D9D9;
     border: 1px solid;
-    border-radius: 12px;
+    border-radius: 16px;
     box-shadow: 2px 2px 0px #000000;
+    align-items: center;
+    justify-content: space-around;
 }
 
-#main-banner > .before-open-ticket > p {
+#main-banner > .ticketBtn > span {
     font-weight: 500;
+    font-size: 1.2em;
 }
 
-
-.ticketBtn {
-    margin-top: 3vh;
-}
-
-.ticketBtn > a > img {
-    width: 170px;
+#main-banner > .ticketBtn > img {
+    width: 14px;
+    height: 16px;
 }
 
 .str {
