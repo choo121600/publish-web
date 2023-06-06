@@ -17,9 +17,10 @@ struct MainBanner: Component {
             Div {
                 Image("/static/images/main/mainBanner.png")
             }.class("sec-banner")
-            Link(url: "https://festa.io/events/3615"){
-                Span("티켓 구매")
-                Image("/static/images/main/nextImg.png")
+            Div {
+                Link(url: "https://festa.io/events/3615"){
+                    Image("/static/images/main/ticketBtn.png")
+                }
             }.class("ticketBtn")
             Div {
                 Paragraph {
