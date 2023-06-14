@@ -66,7 +66,7 @@ struct TimeTable: Component {
                                         Span("#Swift").class("session-tag")
                                     }.class("session-info")
                                     Div{
-                                        Span("추영욱 | with 오거나이저")
+                                        Span("with 오거나이저")
                                     }.class("speaker-info")
                                 }.class("session-describe")
                             }
@@ -90,7 +90,7 @@ struct TimeTable: Component {
                                         Span("#ML").class("session-tag")
                                     }.class("session-info")
                                     Div{
-                                        Span("이준원, Rosa | with 오거나이저")
+                                        Span("with 오거나이저")
                                     }.class("speaker-info")
                                 }.class("session-describe")
                             }
