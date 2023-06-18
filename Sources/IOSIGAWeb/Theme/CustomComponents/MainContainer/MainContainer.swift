@@ -20,6 +20,7 @@ struct MainContainer: Component {
             Location(context: context)
             SpeakerTable(context: context)
             OrganizationTable(context: context)
+            StaffsTable(context: context)
             Sponsor(context: context)
         }.class("main")
     }

@@ -46,9 +46,27 @@
     width: 80%;
 }
 
+
 @media screen and (min-width: 768px) {
     .profile-list {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        justify-content: center;
+    }
+
+    .profile-card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 0.5rem;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 1040px) {
+    .profile-list {
         grid-template-columns: repeat(4, 1fr);
+        justify-content: center;
     }
 
     .profile-card {
