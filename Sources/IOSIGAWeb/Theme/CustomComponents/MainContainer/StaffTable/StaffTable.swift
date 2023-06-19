@@ -35,6 +35,14 @@ struct StaffsTable: Component {
                         Text("김태경")
                     }
                 }.class("profile-card")
+                Div {
+                    Div {
+                        Image("/static/images/staffs/keungwon.jpeg")
+                    }.class("profile-img-wrap")
+                    H4 {
+                        Text("박경원")
+                    }
+                }.class("profile-card")
             }.class("profile-list")
         }.id("main-staff-table")
     }
